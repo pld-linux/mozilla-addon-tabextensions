@@ -3,7 +3,7 @@ Summary(pl):	Rozszerzenie mo¿liwo¶ci przegl±dania w panelach
 %define		_realname	tabextensions
 Name:		mozilla-addon-%{_realname}
 Version:	1.10.2004062101
-Release:	3
+Release:	4
 License:	none
 Group:		X11/Applications/Networking
 Source0:	http://white.sakura.ne.jp/~piro/xul/xpi/%{_realname}_en.xpi
