@@ -1,0 +1,10 @@
+content,install,url,jar:resource:/chrome/tabextensions.jar!/content/tabextensions/
+content,install,url,jar:resource:/chrome/tabextensions.jar!/content/tabextensionsBindings/
+content,install,url,jar:resource:/chrome/tabextensions.jar!/content/sessionManager/
+locale,install,url,jar:resource:/chrome/tabextensions.jar!/locale/en-US/tabextensions/
+locale,install,url,jar:resource:/chrome/tabextensions.jar!/locale/en-US/sessionManager/
+locale,install,url,jar:resource:/chrome/tabextensions.jar!/locale/ja-JP/tabextensions/
+locale,install,url,jar:resource:/chrome/tabextensions.jar!/locale/ja-JP/sessionManager/
+locale,install,url,jar:resource:/chrome/tabextensions.jar!/locale/pl-PL/tabextensions/
+locale,install,url,jar:resource:/chrome/tabextensions.jar!/locale/pl-PL/sessionManager/
+skin,install,url,jar:resource:/chrome/tabextensions.jar!/skin/classic/tabextensions/
