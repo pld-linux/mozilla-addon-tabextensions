@@ -2,14 +2,14 @@ Summary:	Extends operations of tabbed browsing
 Summary(pl):	Rozszerza mo¿liwo¶ci przegl±dania w panelach
 Name:		mozilla-addon-tabbrowser
 %define		_realname	tabextensions
-Version:	1.10.2004040401
+Version:	1.10.2004062101
 Release:	1
 License:	none
 Group:		X11/Applications/Networking
 Source0:	http://white.sakura.ne.jp/~piro/xul/xpi/%{_realname}_en.xpi
-# Source0-md5:	fb5caeea6f1a78dfa1a18b313432558c
-Source1:	http://www.ee.pw.edu.pl/~misiejuk/mozilla/%{_realname}_pl.xpi
-# Source1-md5:	a19084dc7e60a7def98998e512b47333
+# Source0-md5:	88ff9f5b05b5836bb2320e05e068e955
+Source1:	http://www.ee.pw.edu.pl/~misiejuk/mozilla/moje/%{_realname}_pl.xpi
+# Source1-md5:	e09614caa9272f86f31e22a0ff231370
 Source2:	%{_realname}-installed-chrome.txt
 URL:		http://white.sakura.ne.jp/~piro/xul/_tabextensions.en.html
 BuildRequires:	unzip
@@ -37,10 +37,10 @@ paneli w przegl±darce.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_chromedir}
 
-unzip %{SOURCE1} tabextensions.jar
+unzip -j %{SOURCE1} chrome/tabextensions.jar
 unzip tabextensions.jar locale/pl-PL/*
 rm -f tabextensions.jar
-unzip %{SOURCE0} tabextensions.jar
+unzip -j %{SOURCE0} chrome/tabextensions.jar
 unzip tabextensions.jar
 rm -f tabextensions.jar
 zip -r -9 -m $RPM_BUILD_ROOT%{_chromedir}/tabextensions.jar ./
