@@ -2,14 +2,14 @@ Summary:	Extends operations of tabbed browsing
 Summary(pl):	Rozszerzenie mo¿liwo¶ci przegl±dania w panelach
 %define		_realname	tabextensions
 Name:		mozilla-addon-%{_realname}
-Version:	1.11.2004092801
+Version:	1.13.2005011702
 Release:	1
 License:	none
 Group:		X11/Applications/Networking
 Source0:	http://white.sakura.ne.jp/~piro/xul/xpi/%{_realname}_en.xpi
-# Source0-md5:	bdcb4e4594d2fc26e4d056658b27fb27
-Source1:	http://www.ee.pw.edu.pl/~misiejuk/mozilla/moje/%{_realname}_pl.xpi
-# Source1-md5:	e09614caa9272f86f31e22a0ff231370
+# Source0-md5:	cc2a395362b7db688d2cf12b70fc9b55
+Source1:	%{_realname}_1.12.2005010801_pl.xpi
+# Source1-md5:	dd8eee574ab7317189726728b5c39f8e
 Source2:	%{_realname}-installed-chrome.txt
 URL:		http://white.sakura.ne.jp/~piro/xul/_tabextensions.en.html
 BuildRequires:	unzip
