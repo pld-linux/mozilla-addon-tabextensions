@@ -6,10 +6,10 @@ Version:	1.10.2004040401
 Release:	1
 License:	none
 Group:		X11/Applications/Networking
-Source0:	http://white.sakura.ne.jp/~piro/xul/xpi//%{_realname}_en.xpi
+Source0:	http://white.sakura.ne.jp/~piro/xul/xpi/%{_realname}_en.xpi
 # Source0-md5:	fb5caeea6f1a78dfa1a18b313432558c
 Source1:	http://www.ee.pw.edu.pl/~misiejuk/mozilla/%{_realname}_pl.xpi
-# Source1-md5:	f943cab57c22e0e4f7212afbdfbfc986
+# Source1-md5:	a19084dc7e60a7def98998e512b47333
 Source2:	%{_realname}-installed-chrome.txt
 URL:		http://white.sakura.ne.jp/~piro/xul/_tabextensions.en.html
 BuildRequires:	unzip
