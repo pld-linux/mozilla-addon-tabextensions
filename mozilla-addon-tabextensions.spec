@@ -14,9 +14,9 @@ Source2:	%{_realname}-installed-chrome.txt
 URL:		http://white.sakura.ne.jp/~piro/xul/_tabextensions.en.html
 BuildRequires:	unzip
 BuildRequires:	zip
-Requires(post,postun):	mozilla >= 1.7.3-3
+Requires(post,postun):	mozilla >= 5:1.7.3-3
 Requires(post,postun):	textutils
-Requires:	mozilla >= 1.0-7
+Requires:	mozilla >= 2:1.0-7
 Obsoletes:	mozilla-addon-tabbrowser
 Conflicts:	mozilla-addon-multizilla
 BuildArch:	noarch
