@@ -17,6 +17,7 @@ BuildRequires:	zip
 Requires(post,postun):	mozilla >= 1.7.3-3
 Requires(post,postun):	textutils
 Requires:	mozilla >= 1.0-7
+Obsoletes:	mozilla-addon-tabbrowser
 Conflicts:	mozilla-addon-multizilla
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
