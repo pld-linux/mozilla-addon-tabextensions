@@ -1,7 +1,7 @@
 Summary:	Extends operations of tabbed browsing
 Summary(pl):	Rozszerza mo¿liwo¶ci przegl±dania w panelach
-Name:		mozilla-addon-tabbrowser
 %define		_realname	tabextensions
+Name:		mozilla-addon-%{_realname}
 Version:	1.10.2004062101
 Release:	2
 License:	none
