@@ -20,7 +20,7 @@ Requires:	mozilla >= 1.0-7
 Obsoletes:	mozilla-addon-tabbrowser
 Conflicts:	mozilla-addon-multizilla
 BuildArch:	noarch
-BuildRoot:	%{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_chromedir	%{_datadir}/mozilla/chrome
 
@@ -33,7 +33,7 @@ Rozszerzenie tabbrowser jest dodatkiem usprawniaj±cym korzystanie z
 paneli w przegl±darce.
 
 %prep
-%setup -q -T -c %{name}-%{version}
+%setup -q -c -T
 
 %install
 rm -rf $RPM_BUILD_ROOT
