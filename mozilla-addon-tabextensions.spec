@@ -3,7 +3,7 @@ Summary(pl):	Rozszerza mo¿liwo¶ci przegl±dania w panelach
 Name:		mozilla-addon-tabbrowser
 %define		_realname	tabextensions
 Version:	1.10.2004062101
-Release:	1
+Release:	2
 License:	none
 Group:		X11/Applications/Networking
 Source0:	http://white.sakura.ne.jp/~piro/xul/xpi/%{_realname}_en.xpi
@@ -20,7 +20,7 @@ Obsoletes:	mozilla-addon-multizilla
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
 
-%define		_chromedir	%{_libdir}/mozilla/chrome
+%define		_chromedir	%{_datadir}/mozilla/chrome
 
 %description
 This is an extension for extending operations of tabbed browsing,
