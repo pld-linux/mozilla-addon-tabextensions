@@ -1,5 +1,5 @@
 Summary:	Extends operations of tabbed browsing
-Summary(pl):	Rozszerzenie mo¿liwo¶ci przegl±dania w panelach
+Summary(pl.UTF-8):   Rozszerzenie moÅ¼liwoÅ›ci przeglÄ…dania w panelach
 %define		_realname	tabextensions
 Name:		mozilla-addon-%{_realname}
 Version:	1.13.2005011702
@@ -28,9 +28,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is an extension for extending operations of tabbed browsing,
 e.g., tabs become re-ordable by drag and drop.
 
-%description -l pl
-Rozszerzenie tabbrowser jest dodatkiem usprawniaj±cym korzystanie z
-paneli w przegl±darce.
+%description -l pl.UTF-8
+Rozszerzenie tabbrowser jest dodatkiem usprawniajÄ…cym korzystanie z
+paneli w przeglÄ…darce.
 
 %prep
 %setup -q -c -T
