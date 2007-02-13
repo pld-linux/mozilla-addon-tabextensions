@@ -1,5 +1,5 @@
 Summary:	Extends operations of tabbed browsing
-Summary(pl.UTF-8):   Rozszerzenie możliwości przeglądania w panelach
+Summary(pl.UTF-8):	Rozszerzenie możliwości przeglądania w panelach
 %define		_realname	tabextensions
 Name:		mozilla-addon-%{_realname}
 Version:	1.13.2005011702
