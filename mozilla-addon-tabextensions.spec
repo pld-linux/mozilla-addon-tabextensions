@@ -1,6 +1,6 @@
+%define		_realname	tabextensions
 Summary:	Extends operations of tabbed browsing
 Summary(pl.UTF-8):	Rozszerzenie możliwości przeglądania w panelach
-%define		_realname	tabextensions
 Name:		mozilla-addon-%{_realname}
 Version:	1.13.2005011702
 Release:	1
@@ -52,10 +52,12 @@ install %{SOURCE2} $RPM_BUILD_ROOT%{_chromedir}
 rm -rf $RPM_BUILD_ROOT
 
 %post
-%{_sbindir}/mozilla-chrome+xpcom-generate
+if [ "$1" = 1 ]; then
+	%{_sbindir}/mozilla-chrome+xpcom-generate
+fi
 
 %postun
-%{_sbindir}/mozilla-chrome+xpcom-generate
+[ ! -x %{_sbindir}/mozilla-chrome+xpcom-generate ] || %{_sbindir}/mozilla-chrome+xpcom-generate
 
 %files
 %defattr(644,root,root,755)
